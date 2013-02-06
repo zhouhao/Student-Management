@@ -1,0 +1,11 @@
+typedef struct student			
+{
+	char num[11];				//把学号定义成字符数组类型,一来学号可能比较长，二来可直接用strcmp来比较，确保无雷同
+	char name[20];
+	int score[M]; 
+	double ave;
+}STU;
+
+This is the struct for student, and in my code, I realized student add, remove, search, display. And it can store or load records into or from files.
+
+I finished it when I am a freshman. And now I am a graduate student.
