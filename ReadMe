@@ -1,6 +1,6 @@
 typedef struct student			
 {
-	char num[11];				//��ѧ�Ŷ������ַ���������,һ��ѧ�ſ��ܱȽϳ���������ֱ����strcmp���Ƚϣ�ȷ������ͬ
+	char num[11];				
 	char name[20];
 	int score[M]; 
 	double ave;
